@@ -1,0 +1,76 @@
+# NSCLC Prediction
+This repository contains all methods, codes used for prediction of NSCLC along with the results.
+
+## Instruction of using:
+
+The work is divided into several parts:
+1. Data-set preparation from Raw Files.
+2. Selecting best features for prediction using <b>boruta feature selection</b>.
+3. Using available <b>Machine Learning Algorithms</b> for the prediction of cancer using the gene expressions.
+4. Comparing the Algorithms.
+5. Dimention Reduction Analysis.
+6. Fold Change Value Analysis.
+
+## Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install the following dependencies.
+
+```bash
+pip install numpy==1.18.5
+pip install markov-clustering==0.0.6.dev
+pip install pickle-mixin==1.0.2
+pip install joblib==0.17.0
+pip install pandas==1.1.4
+pip install pgmpy==0.1.11
+pip install networkx==1.19.4
+pip install pylab-sdk==1.3.2
+pip install scikit-learn==0.22.2.post1
+pip install xgboost==1.2.1
+pip install scipy==1.5.4
+pip install catboost==0.4
+pip install lightgbm==2.3.1
+pip install imbalanced-learn==0.6.2
+pip install seaborn==0.11.0
+pip install matplotlib==3.3.3
+pip install time
+pip install mplot3d-dragger
+pip install Boruta==0.2
+pip install plotly==4.13.0
+```
+# Make Sure that all the files are present and accessible to the code on your local machine.
+
+## Directions to use Botura feature selection
+
+1. Open <b>Boruta Feature Selection.ipynb</b>
+
+2. Please unzip "train_data_whole_merged.zip" to the local directory and save to the main working directory where the zip file was earlier saved. 
+
+3. Please run the code and wait for some time while the processing is being done.
+
+4. After whole processing, you will find two files as outputs:
+   1. original_data_with_412_genes.csv
+   2. test_after_features_selection.csv
+  These two files shall be used in our further predictions in the <b>All Models.ipynb</b>
+
+## Directions to use prediction models
+
+1. Open <b>All_Models oversampling KFOLD.ipynb and All Models testing-KFOLDOVERSAMPLING.ipynb </b> (make sure all dependencies mentioned above are installed, if not then install using the commands above)
+
+
+2. Rull All cells and wait for some time while all other models are compiling the results.
+
+3. After compilation, please check the results of each and every model.
+
+## Directions to use bayesian simulation
+
+1. Run "Bayesian network FOR Rho GDI signalling pathway.ipynb", input 0 if you want the simulation for the dataset containing only the healthy cohorts, else 1 for the NSCLC cohorts
+
+2. check the conditional probabilities obtained.
+
+## Directions to use <b> Dimensional reduction analysis.ipynb and Analyzing FC values for train and test.ipynb</b>
+
+1. Run the code, and get the results
+
+
+## for any query, please contact: saransh.official.iitkgp@gmail.com / whatapp me at: +91-9530277421
+

@@ -1,0 +1,97 @@
+cluster # 0 : ['ABI1', 'ABI1', 'KIF20A', 'ABI2', 'CTBP2'] ['ABI2', 'PIK3R2', 'RAB6A', 'NCK2', 'RAI2']
+
+
+cluster # 1 : ['TOM1L1', 'SH2D3C', 'RAMP2', 'IGF2BP3', 'IGF2BP3', 'KHDRBS1', 'KHDRBS1', 'TBC1D16', 'CREBBP'] ['GRB2', 'EGFR', 'CALCRL', 'PIH1D2', 'MEOX2', 'CREBBP', 'FGR', 'NOTCH2NLA', 'FGFR1']
+
+
+cluster # 2 : ['OPTN', 'DRAP1', 'CKS2', 'CLTC', 'TBC1D16', 'CLHC1', 'CREBBP'] ['EPS15', 'DRAP1', 'CCNB2', 'AP2B1', 'TNS2', 'LMO2', 'KPNA2']
+
+
+cluster # 3 : ['OPTN', 'OPTN', 'OPTN', 'AKAP9', 'AKAP9', 'ABI2', 'CDK7', 'CDK7', 'CALCOCO2', 'CALCOCO2', 'STAM2', 'STAM2', 'CEBPA', 'CEBPB', 'CEBPB', 'RNPS1', 'FAM107A', 'CTBP1', 'CTBP1'] ['MYO6', 'RAB11A', 'DAZAP2', 'HNRNPM', 'MAGED1', 'NUP62', 'ESR1', 'TP53', 'PRPF31', 'UBC', 'EGFR', 'UBC', 'SMARCA2', 'TRIB1', 'CEBPB', 'SRSF3', 'PNMA1', 'IKZF1', 'CREBBP']
+
+
+cluster # 4 : ['OPTN', 'OPTN', 'CDK7', 'TNIP1', 'TNIP1', 'CEBPB', 'COPS6', 'RBPMS', 'RBPMS', 'MRFAP1L1', 'MRFAP1L1', 'MRFAP1L1', 'MRFAP1L1', 'MRFAP1L1', 'RMI2'] ['UBC', 'SQSTM1', 'CCNA2', 'NDC80', 'GABARAPL1', 'SMARCA2', 'COPS5', 'PITX1', 'KCTD9', 'MRFAP1L1', 'LMO2', 'MEOX2', 'PIK3R2', 'SDCBP', 'RMI1']
+
+
+cluster # 5 : ['AKAP9', 'RBPMS', 'COL5A2', 'CREBBP', 'CREBBP', 'CTBP1'] ['PCM1', 'LONRF1', 'COL11A1', 'SRC', 'BRCA1', 'HDAC2']
+
+
+cluster # 6 : ['ABI2', 'ABI2', 'ABI2', 'ABI2', 'SPRY2', 'CDKN1A', 'CAP2', 'NCOA2', 'CEBPA', 'PPARGC1A', 'CBX1', 'CBX1', 'MRFAP1L1', 'MIPOL1', 'CSNK2A1'] ['ABI1', 'ABI2', 'STAM2', 'TLE5', 'GRB2', 'CDC45', 'ACTG1', 'RXRA', 'CDKN1A', 'MED1', 'CBX3', 'NSL1', 'LNX1', 'MIPOL1', 'TP53']
+
+
+cluster # 7 : ['ABI2', 'ABI2', 'CDK7', 'CDKN1A', 'CDKN1B', 'CDKN1B', 'CDKN1B', 'NCOA2', 'ATG7', 'VAMP5', 'VAMP5', 'COPS5', 'HAUS1'] ['KRT15', 'LMO2', 'POLR2A', 'CCNA2', 'GRB2', 'RHOA', 'CCNA2', 'BRCA1', 'ATG3', 'SNAP29', 'STX8', 'JUN', 'MIPOL1']
+
+
+cluster # 8 : ['ABI2', 'CALCOCO2', 'CEBPA', 'CEBPB', 'CKS2', 'CTBP1'] ['TRIP6', 'DAZAP2', 'CEBPB', 'RB1', 'CCNB1', 'CTBP1']
+
+
+cluster # 9 : ['ABI2', 'STUB1', 'PIH1D2', 'CREBBP', 'CSNK2A1', 'CTBP1'] ['WASL', 'ABL1', 'DPH3', 'ATF4', 'DVL3', 'ZEB2']
+
+
+cluster # 10 : ['TRIM28', 'TRIM28', 'TRIM28', 'TRIM28', 'YAP1', 'YAP1', 'N4BP2L2'] ['CBX1', 'CBX3', 'CBX5', 'NPM1', 'SMAD1', 'TFCP2', 'LMO2']
+
+
+cluster # 11 : ['TRIM28', 'TRIM28', 'CDK2', 'CDK2', 'CALCOCO2', 'SPRY2', 'STAM2', 'STAG1', 'NET1', 'CEBPB', 'CEBPB', 'CEBPB', 'CFL1', 'PPARGC1A', 'CREBBP', 'CREBBP'] ['TP53', 'UBC', 'MCM2', 'CDC25C', 'SDCBP', 'EIF4E2', 'ABI2', 'RAD21', 'RHOA', 'CEBPG', 'ESR1', 'HMGA1', 'CFL2', 'NCOA1', 'NCOA6', 'PPARG']
+
+
+cluster # 12 : ['TRIM28', 'CAP2', 'CKS1B', 'CKS1B', 'CREBBP'] ['UBE2I', 'CAP2', 'CKS1B', 'CDC27', 'RELA']
+
+
+cluster # 13 : ['TRIM28', 'CDKN1A', 'STUB1', 'STUB1', 'STUB1', 'STAG1', 'LILRB2', 'NDC80', 'NDC80', 'NDC80', 'FARS2', 'CFL2', 'RBPMS', 'CHEK1', 'CHEK1', 'PKP3', 'CKS2', 'CSK', 'CSK'] ['TRIM24', 'NPM1', 'MYC', 'RAF1', 'ATXN1', 'SMC1A', 'HLA-B', 'NDC80', 'HAUS1', 'KLC3', 'STX11', 'CAP2', 'KPNA2', 'MCM2', 'MCM6', 'JUP', 'CDK2', 'SRC', 'CAV1']
+
+
+cluster # 14 : ['CDK2', 'CDK2', 'CDK2', 'CDK2', 'CDK2', 'CDK2', 'CDK2', 'CDK4', 'CKS1B'] ['CDK7', 'CEBPA', 'SMAD3', 'CDC7', 'CCNA2', 'CCNA1', 'CCNB1', 'SKP1', 'SKP2']
+
+
+cluster # 15 : ['CDK2', 'CDK4', 'CDK4', 'CDKN1B', 'STUB1', 'STUB1', 'STUB1', 'NET1', 'TNIP1'] ['DBF4', 'BRCA1', 'TP53', 'MCM7', 'TP53', 'UBC', 'VCP', 'DLG1', 'UBC']
+
+
+cluster # 16 : ['CDK4', 'CDKN1A', 'PTPN21', 'CHEK1', 'CHEK1'] ['HOOK1', 'PSMC2', 'YAP1', 'CHEK1', 'HSP90AA1']
+
+
+cluster # 17 : ['CDK7', 'TRIB1', 'KHDRBS1', 'CREBBP', 'CREBBP'] ['CCNB1', 'CEBPB', 'FYN', 'MYC', 'NFE2L2']
+
+
+cluster # 18 : ['CDK7', 'DSTN', 'WWP1', 'CSNK2A1', 'CSNK2A1', 'CSNK2A1'] ['CDK1', 'TAX1BP1', 'KLF2', 'MYC', 'POLR2A', 'SQSTM1']
+
+
+cluster # 19 : ['SPRY2', 'NDC80', 'NDC80', 'NDC80', 'NDC80', 'NDC80', 'NDC80', 'CFL2', 'VAMP5', 'VAMP5', 'COPS5', 'CHEK1', 'EXOSC8', 'FUNDC1', 'MIPOL1'] ['SPRY2', 'ATF4', 'NEK2', 'PCM1', 'KNL1', 'CENPH', 'NUF2', 'ACTG1', 'STX16', 'SNAP23', 'RACK1', 'CSNK2A1', 'EXOSC8', 'CTBP2', 'PRPF31']
+
+
+cluster # 20 : ['CDKN1A', 'CDKN1A', 'CFL2', 'PPARGC1A', 'ADCY3', 'RNPS1'] ['RB1', 'SKP2', 'ACTB', 'RXRA', 'ADRB2', 'SDCBP2']
+
+
+cluster # 21 : ['SF3B4', 'RAMP3', 'NDC80', 'RNPS1', 'DBF4', 'DBF4', 'DBF4', 'DBF4', 'DBF4', 'RBPMS', 'EXOSC8', 'HAUS1', 'CKS1B'] ['BAG3', 'CALCRL', 'MFAP1', 'SRPK1', 'MCM7', 'ORC1', 'ORC2', 'ORC5', 'CDC7', 'BHLHE40', 'SNRPC', 'TRIM27', 'CDK2']
+
+
+cluster # 22 : ['CDKN1B', 'CREBBP', 'CREBBP', 'CRYAB', 'MIPOL1', 'CCBE1'] ['CCNA1', 'KAT2B', 'KLF4', 'CRYAB', 'FAM161A', 'CEP55']
+
+
+cluster # 23 : ['STUB1', 'STUB1', 'STUB1', 'STUB1', 'TFG', 'TFG', 'TFG'] ['HSP90AA1', 'SMAD1', 'SMAD3', 'SMAD4', 'GRB2', 'CEP55', 'MAGED1']
+
+
+cluster # 24 : ['LILRB2', 'TNIP1', 'CAP2', 'RAI2', 'CBX3', 'OIP5', 'EXOSC8', 'EXOSC8', 'PIH1D2', 'CLTC'] ['HLA-G', 'OPTN', 'CFL2', 'CTBP2', 'BRCA1', 'KRT15', 'UBC', 'TXNDC17', 'REL', 'TOM1L1']
+
+
+cluster # 25 : ['DLC1', 'RACK1', 'RACK1', 'RACK1', 'AHNAK2'] ['TNS2', 'COPS5', 'ADRB2', 'FYN', 'GABARAPL1']
+
+
+cluster # 26 : ['RACK1', 'RACK1', 'RACK1', 'RACK1', 'RACK1', 'RACK1', 'NDC80', 'CSNK2A1'] ['PRKCB', 'PTPRM', 'SRC', 'BRCA1', 'STAT1', 'DYNLL1', 'TNIP1', 'CDK1']
+
+
+cluster # 27 : ['BAIAP2', 'BAIAP2', 'CEBPB', 'RBPMS', 'UBE2C', 'CLTC', 'CSNK2A1', 'KLC3'] ['SF3B4', 'BAIAP2', 'SMAD4', 'LMO4', 'CDC20', 'ARRB1', 'MDM2', 'MBIP']
+
+
+cluster # 28 : ['CAP2', 'CEBPA', 'CEBPB', 'CEBPB', 'CENPA', 'COPS5', 'CBX3', 'HAUS1', 'HAUS1', 'HAUS1', 'HAUS1', 'CREBBP', 'CREBBP', 'MIPOL1', 'KLC3'] ['ACTB', 'CEBPD', 'CEBPA', 'CEBPD', 'AURKB', 'VCP', 'CBX5', 'BLOC1S6', 'GOLGA2', 'TFPT', 'KRT15', 'FOS', 'HMGA1', 'CKS1B', 'KLC3']
+
+
+cluster # 29 : ['NCOA2', 'OIP5', 'OIP5', 'GSTO2', 'PIH1D2', 'PIH1D2', 'PIH1D2'] ['CREBBP', 'HJURP', 'TRIP6', 'TFAP2A', 'IGF2BP3', 'MRFAP1L1', 'PIH1D2']
+
+
+cluster # 30 : ['NCKAP1', 'CNTN1', 'CSNK2A1', 'CSNK2A1', 'CSTF2'] ['ABI1', 'PTPRB', 'HDAC1', 'HDAC2', 'SPAG8']
+
+
+cluster # 31 : ['COPS6', 'MAPRE2', 'MAPRE2', 'MAPRE2', 'MAPRE2', 'MAPRE2', 'EXOSC8', 'MRFAP1L1'] ['TK1', 'MAPRE2', 'MAPRE1', 'MAPRE3', 'LMO2', 'CRTAC1', 'REL', 'PIH1D2']
+
+
+cluster # 32 : ['UBE2C', 'UBE2C', 'UBE2C', 'UBE2C', 'UBE2C'] ['PSMC2', 'PSMD4', 'AURKA', 'UBA52', 'UBA1']
