@@ -1,5 +1,5 @@
 # NSCLC Prediction
-This repository contains the datasets, files and scripts associate with the research published in "...."
+This repository contains the datasets, files and scripts associated with the research published in "...."
 
 ## Notes:
 
@@ -52,7 +52,7 @@ pip install plotly==4.13.0
    2. test_after_features_selection.csv
   These two files shall be used in our further predictions in the <b>All Models.ipynb</b>
 
-## Directions to use prediction models
+## Prediction models
 
 1. Open <b>All_Models oversampling KFOLD.ipynb and All Models testing-KFOLDOVERSAMPLING.ipynb </b> (make sure all dependencies mentioned above are installed, if not then install using the commands above)
 
@@ -61,7 +61,7 @@ pip install plotly==4.13.0
 
 3. After compilation, please check the results of each and every model.
 
-## Directions to use bayesian simulation
+## Bayesian simulation
 
 1. Run "Bayesian network FOR Rho GDI signalling pathway.ipynb", input 0 if you want the simulation for the dataset containing only the healthy cohorts, else 1 for the NSCLC cohorts
 
