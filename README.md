@@ -1,7 +1,7 @@
 # NSCLC Prediction
-This repository contains all methods, codes used for prediction of NSCLC along with the results.
+This repository contains the datasets, files and scripts associate with the research published in "...."
 
-## Instruction of using:
+## Notes:
 
 The work is divided into several parts:
 1. Data-set preparation from Raw Files.
