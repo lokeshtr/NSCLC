@@ -1,9 +1,9 @@
-# Integrative analysis of NSCLC clinical samples
-This repository includes the datasets, files and scripts associated with the research published in "...."
+# Integrative analysis of the progression of non-small cell lung cancer (NSCLC)
+This repository includes the datasets, files and scripts associated with the research published in "An integrative machine learning and bayesian modeling approach highlights the crucial roles of Rho-GDI signaling pathway in the progression of non-small cell lung cancer (NSCLC)"
 
 ## Notes:
 
-The analytical wrkflow can be categorised as follows:
+The analytical workflow can be categorised as follows:
 1. Data processing.
 2. Feature selection for machine learning using <b>boruta feature selection</b>.
 3. Using an ensemble of <b>Machine Learning Algorithms</b> to generate prediction models that can discriminate NSCLC cohort from Healthy cohort.
