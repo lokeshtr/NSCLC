@@ -4,17 +4,17 @@ This repository includes the datasets, files and scripts associated with the res
 ## Notes:
 
 The analytical workflow can be categorised as follows:
-1. Data processing.
-2. Feature selection for machine learning using <b>boruta feature selection</b>.
+1. Data cleaning and processing.
+2. Feature selection and assessment for machine learning.
 3. Using an ensemble of <b>Machine Learning Algorithms</b> to generate prediction models that can discriminate NSCLC cohort from Healthy cohort.
 4. Comparative assessment of ML classifiers.
-5. Functnal enrichment analysis
+5. Functional enrichment analysis.
 6. Using Bayesian simulation to assess the mechanistics of pathway perturbations in NSCLC.
 7. PPI network analysis.
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install the following dependencies.
+Readers are advised to use the package manager [pip](https://pip.pypa.io/en/stable/) to install the following dependencies.
 
 ```bash
 pip install numpy==1.18.5
@@ -38,13 +38,13 @@ pip install mplot3d-dragger
 pip install Boruta==0.2
 pip install plotly==4.13.0
 ```
-# Make Sure that all the files are present and accessible to the code on your local machine.
+# Please ensure that all the files are accessible on your local machine.
 
-## Directions to use Botura feature selection
+## Use Boruta feature selection
 
 1. Open <b>Boruta Feature Selection.ipynb</b>
 
-2. Please unzip "train_data_whole_merged.zip" to the local directory and save to the main working directory where the zip file was earlier saved. 
+2. Unzip "train_data_whole_merged.zip" to the local directory and save to the main working directory where the zip file was earlier saved. 
 
 3. Please run the code and wait for some time while the processing is being done.
 
