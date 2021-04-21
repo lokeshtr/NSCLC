@@ -1,4 +1,4 @@
-# Integartive analysis of NSCLC clinical samples
+# Integrative analysis of NSCLC clinical samples
 This repository includes the datasets, files and scripts associated with the research published in "...."
 
 ## Notes:
