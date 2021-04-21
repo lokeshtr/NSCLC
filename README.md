@@ -1,15 +1,16 @@
-# NSCLC Prediction
-This repository contains the datasets, files and scripts associated with the research published in "...."
+# Integartive analysis of NSCLC clinical samples
+This repository includes the datasets, files and scripts associated with the research published in "...."
 
 ## Notes:
 
-The work is divided into several parts:
-1. Data-set preparation from Raw Files.
-2. Selecting best features for prediction using <b>boruta feature selection</b>.
-3. Using available <b>Machine Learning Algorithms</b> for the prediction of cancer using the gene expressions.
-4. Comparing the Algorithms.
-5. Dimention Reduction Analysis.
-6. Fold Change Value Analysis.
+The analytical wrkflow can be categorised as follows:
+1. Data processing.
+2. Feature selection for machine learning using <b>boruta feature selection</b>.
+3. Using an ensemble of <b>Machine Learning Algorithms</b> to generate prediction models that can discriminate NSCLC cohort from Healthy cohort.
+4. Comparative assessment of ML classifiers.
+5. Functnal enrichment analysis
+6. Using Bayesian simulation to assess the mechanistics of pathway perturbations in NSCLC.
+7. PPI network analysis.
 
 ## Installation
 
