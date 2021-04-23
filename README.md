@@ -74,3 +74,5 @@ pip install plotly==4.13.0
 ## Directions to use <b> Dimensional reduction analysis.ipynb and Analyzing FC values for train and test.ipynb</b>
 
 1. Run the code, and get the results
+
+## For specific queries contact
