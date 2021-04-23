@@ -10,7 +10,7 @@ The analytical workflow can be categorised as follows:
 4. Using an ensemble of <b>Machine Learning Algorithms</b> to generate prediction models that can discriminate NSCLC cohort from Healthy cohort.
 5. Comparative assessment of ML classifiers.
 6. Using Bayesian simulation to assess the mechanistics of pathway perturbations in NSCLC.
-7. PPI network analysis, sub-cluster identification using MCL algorithm.
+7. PPI network analysis, network sub-cluster extraction (using MCL algorithm) and functional enrichment analysis of selected clusters.
 
 ## Installation
 
