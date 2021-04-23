@@ -1,7 +1,10 @@
 # Integrative analysis of the progression of non-small cell lung cancer (NSCLC)
 This repository includes the datasets, files and scripts associated with the research published in "An integrative machine learning and bayesian modeling approach highlights the crucial roles of Rho-GDI signaling pathway in the progression of non-small cell lung cancer (NSCLC)"
 
-## Notes:
+# Publication
+Saransh Gupta, Haswanth Vundavilli, Rodolfo S. Allendes Osorio, Mari N. Itoh, Attayeb Mohsen, Aniruddha Datta,Kenji Mizuguchi, Lokesh P. Tripathi. An integrative machine learning and bayesian modeling approach highlights the crucial roles of Rho-GDI signaling pathway in the progression of non-small cell lung cancer (NSCLC). 
+
+## Analysis workflow:
 
 The analytical workflow can be categorised as follows:
 1. Data cleaning and processing.
