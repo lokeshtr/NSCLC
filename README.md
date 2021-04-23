@@ -5,12 +5,12 @@ This repository includes the datasets, files and scripts associated with the res
 
 The analytical workflow can be categorised as follows:
 1. Data cleaning and processing.
-2. Feature selection and assessment for machine learning.
-3. Using an ensemble of <b>Machine Learning Algorithms</b> to generate prediction models that can discriminate NSCLC cohort from Healthy cohort.
-4. Comparative assessment of ML classifiers.
-5. Functional enrichment analysis.
+2. Feature selection.
+3. Assessment and functional enrichment analysis of the selected features.
+4. Using an ensemble of <b>Machine Learning Algorithms</b> to generate prediction models that can discriminate NSCLC cohort from Healthy cohort.
+5. Comparative assessment of ML classifiers.
 6. Using Bayesian simulation to assess the mechanistics of pathway perturbations in NSCLC.
-7. PPI network analysis.
+7. PPI network analysis, sub-cluster identification using MCL algorithm.
 
 ## Installation
 
