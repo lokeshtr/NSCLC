@@ -45,16 +45,16 @@ pip install plotly==4.13.0
 
 ## Use Boruta feature selection
 
-1. Open <b>Boruta Feature Selection.ipynb</b>
+1. Use <b>Boruta Feature Selection.ipynb</b>
 
 2. Unzip "train_data_whole_merged.zip" to the local directory and save to the main working directory where the zip file was earlier saved. 
 
-3. Please run the code and wait for some time while the processing is being done.
+3. Execute the code to commence processing.
 
-4. After whole processing, you will find two files as outputs:
+4. After the processing step, two output files will be generated:
    1. original_data_with_412_genes.csv
    2. test_after_features_selection.csv
-  These two files shall be used in our further predictions in the <b>All Models.ipynb</b>
+  These two files form the inputs for the subsequent steps using <b>All Models.ipynb</b>
 
 ## Prediction models
 
