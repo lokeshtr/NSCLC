@@ -47,9 +47,7 @@ pip install plotly==4.13.0
 
 ## Machine learning
 
-1. Run through the commands in <b>All_Models oversampling KFOLD.ipynb and All Models testing-KFOLDOVERSAMPLING.ipynb </b>. The process is time-consuming and the users may have to wait while the models compile their output.
-
-2. After compilation, the users may examine the individual outputs.
+The code required to perform machine learning are included in <b>All_Models oversampling KFOLD.ipynb and All Models testing-KFOLDOVERSAMPLING.ipynb </b> notebooks. 
 
 ## PPI network analysis
 
