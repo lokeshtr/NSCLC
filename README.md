@@ -41,7 +41,7 @@ pip install plotly==4.13.0
    2. test_after_features_selection.csv
   These two files form the inputs for the subsequent steps using <b>All Models.ipynb</b>
 
-## Prediction models
+## Machine learning
 
 1. Open and run through the steps in <b>All_Models oversampling KFOLD.ipynb and All Models testing-KFOLDOVERSAMPLING.ipynb </b> 
 
