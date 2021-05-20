@@ -3,7 +3,7 @@ The study employs an interconnected two-prong approach to investigate the biolog
     
   1. The first analytical pipeline involved a series of steps to examine the functional associations of the selected feature genes, both individually and in a network-context to extract coexpressed gene modules and protein complexes that were likely to shape the outcomes in NSCLC. Functional enrichment analysis was then used to simulate the perturbations and "normalization" of target pathways to pinpoint suitable targets for experimental validation and optential therapeutic intervention.
     
-  2. The second approach involved inoking a seriies of Machine Leanring approaches to generate prediction models capable of successfully discriminating NSCLC cohort from the healthy.
+  2. The second workflow involved invoking different machine Leanring approaches to generate prediction models capable of successfully discriminating NSCLC cohort from the healthy.
     
 The analytical workflow of the study is summarised in Figure 1.
 
@@ -36,22 +36,20 @@ pip install mplot3d-dragger
 pip install Boruta==0.2
 pip install plotly==4.13.0
 ```
-## Use Boruta feature selection
+## Feature selection
 
 1. Unzip "train_data_whole_merged.zip" to the specified location and run through the commands in <b>Boruta Feature Selection.ipynb</b>
 
-2. At he end of the process two output files will be generated:
+2. The script generates two output files:
    1. original_data_with_412_genes.csv
    2. test_after_features_selection.csv
   These two files form the inputs for the subsequent steps using <b>All Models.ipynb</b>
 
 ## Machine learning
 
-1. Open and run through the steps in <b>All_Models oversampling KFOLD.ipynb and All Models testing-KFOLDOVERSAMPLING.ipynb </b> 
+1. Run through the commands in <b>All_Models oversampling KFOLD.ipynb and All Models testing-KFOLDOVERSAMPLING.ipynb </b>. The process is time-consuming and the users may have to wait while the models compile their output.
 
-2. The process is time-consuming tso the users may have to wait while the models compile their output.
-
-3. After compilation, the users may examine the individual outputs.
+2. After compilation, the users may examine the individual outputs.
 
 ## PPI network analysis
 
@@ -75,11 +73,11 @@ It is possible to generate three different types of output, each at one of the m
 
 ## Bayesian simulation
 
-1. Run "Bayesian network FOR Rho GDI signalling pathway.ipynb", input 0 if the user wishes to simulate for the healthy cohort. else 1 for the NSCLC cohort.
+1. Run through the commands in "Bayesian network FOR Rho GDI signalling pathway.ipynb", input 0 if the user wishes to simulate for the healthy cohort. else 1 for the NSCLC cohort.
 
-2. The output files will list the conditional probabilities inferred for each cohort.
+2. The output files will summarise the conditional probabilities inferred for each cohort.
 
 ## For queries, comments and feedback contact
-Saransh Gupta
-Hashwanth Vundavilli
-Lokesh P. Tripathi
+ Saransh Gupta
+ Hashwanth Vundavilli
+ Lokesh P. Tripathi
