@@ -72,9 +72,9 @@ It is possible to generate three different types of output, each at one of the m
 
 ## Bayesian simulation
 
-The code required to perform the Bayesi simution analysis is included in the <b>Bayesian network FOR Rho GDI signalling pathway.ipynb</b> notebook.
+The code required to perform the Bayesian simulation analysis is included in the <b>Bayesian network FOR Rho GDI signalling pathway.ipynb</b> notebook.
 
-The code takes gene expression values, expressed as a matrix as input and generates an output sumarising the conditional probabilities for either NSCLC or Healthy cohorts (determined by selecting 1 or 0, respectively, as input parameters)
+The code takes as input gene expression values, expressed as a matrix and generates an output sumarising the conditional probabilities for either NSCLC or Healthy cohorts (determined by selecting 1 or 0, respectively, as input parameters)
     
 ## For queries, comments and feedback contact
  Saransh Gupta  
