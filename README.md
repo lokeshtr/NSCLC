@@ -6,14 +6,9 @@ Saransh Gupta, Haswanth Vundavilli, Rodolfo S. Allendes Osorio, Mari N. Itoh, At
 
 ## Analysis workflow:
 
-The analytical workflow can be categorised as follows:
-1. Data cleaning and processing.
-2. Feature selection.
-3. Assessment and functional enrichment analysis of the selected features.
-4. Using an ensemble of <b>Machine Learning Algorithms</b> to generate prediction models that can discriminate NSCLC cohort from Healthy cohort.
-5. Comparative assessment of ML classifiers.
-6. Using Bayesian simulation to assess the mechanistics of pathway perturbations in NSCLC.
-7. PPI network analysis, network sub-cluster extraction (using MCL algorithm) and functional enrichment analysis of selected clusters.
+The analytical workflow is summarised in Figure 1. The study empoys an interconnected two-prong approach to investigate the biology of NSCLC. The first approach involved identifying- by the means of feature selection- the key genes the activities of which collectively contribute to the onset of progression of NSCLC. This set of seleted features was then fed into two independent analytical workfows.
+1. The first analytical pipeline involved a series of steps to examine the functional associations of the selected feature genes, both individually and in a network-context to extract coexpressed gene modules and protein complexes that were likely to shape the outcomes in NSCLC. Functional enrichment analysis was then used to simulate the perturbations and "normalization" of target pathways to pinpoint suitable targets for experimental validation and optential therapeutic intervention.
+2. The second approach involved inoking a seriies of Machine Leanring approaches to generate prediction models capable of successfully discriminating NSCLC cohort from the healthy.
 
 ## Installation
 
