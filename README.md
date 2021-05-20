@@ -47,20 +47,18 @@ pip install plotly==4.13.0
 
 ## Machine learning
 
-1. Open and run through the steps in <b>All_Models oversampling KFOLD.ipynb and All Models testing-KFOLDOVERSAMPLING.ipynb </b> 
+1. Open and run through the steps in <b>All_Models oversampling KFOLD.ipynb and All Models testing-KFOLDOVERSAMPLING.ipynb </b>. The process is time-consuming and the users may have to wait while the models compile their output.
 
-2. The process is time-consuming tso the users may have to wait while the models compile their output.
-
-3. After compilation, the users may examine the idividual outputs.
+2. After compilation, the users may examine the idividual outputs.
 
 ## PPI network analysis
 
 
 ## Bayesian simulation
 
-1. Run "Bayesian network FOR Rho GDI signalling pathway.ipynb", input 0 if the user wishes to simulate for the healthy cohort. else 1 for the NSCLC cohort.
+1. Run through the commands in "Bayesian network FOR Rho GDI signalling pathway.ipynb", input 0 if the user wishes to simulate for the healthy cohort. else 1 for the NSCLC cohort.
 
-2. The output files will list the conditional probabilities inferred for each cohort.
+2. The output files will summarise the conditional probabilities inferred for each cohort.
 
 ## For queries, comments and feedback contact
 Saransh Gupta
