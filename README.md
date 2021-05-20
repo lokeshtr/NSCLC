@@ -61,6 +61,6 @@ pip install plotly==4.13.0
 2. The output files will summarise the conditional probabilities inferred for each cohort.
 
 ## For queries, comments and feedback contact
-  Saransh Gupta
-  Hashwanth Vundavilli
-  Lokesh P. Tripathi
+ Saransh Gupta
+ Hashwanth Vundavilli
+ Lokesh P. Tripathi
