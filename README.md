@@ -38,12 +38,13 @@ pip install plotly==4.13.0
 ```
 ## Feature selection
 
-1. Unzip "train_data_whole_merged.zip" to the specified location and run through the commands in <b>Boruta Feature Selection.ipynb</b>
+The code required to perform Feature selection (using Boruta algorithm) is icluded in the <b>Boruta Feature Selection.ipynb</b> notebook. To perform feature selection, the users must extract the <b>train_data_whole_merged.zip</b> to the specified location.
 
-2. The script generates two output files:
+The code generates two output files:
    1. original_data_with_412_genes.csv
    2. test_after_features_selection.csv
-  These two files form the inputs for the subsequent steps using <b>All Models.ipynb</b>
+
+These two files form the inputs for the subsequent steps using <b>All Models.ipynb</b>
 
 ## Machine learning
 
