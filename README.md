@@ -40,14 +40,14 @@ pip install plotly==4.13.0
 
 1. Unzip "train_data_whole_merged.zip" to the specified location and run through the commands in <b>Boruta Feature Selection.ipynb</b>
 
-2. At he end of the process two output files will be generated:
+2. The script generates two output files:
    1. original_data_with_412_genes.csv
    2. test_after_features_selection.csv
   These two files form the inputs for the subsequent steps using <b>All Models.ipynb</b>
 
 ## Machine learning
 
-1. Open and run through the steps in <b>All_Models oversampling KFOLD.ipynb and All Models testing-KFOLDOVERSAMPLING.ipynb </b>. The process is time-consuming and the users may have to wait while the models compile their output.
+1. Run through the commands in <b>All_Models oversampling KFOLD.ipynb and All Models testing-KFOLDOVERSAMPLING.ipynb </b>. The process is time-consuming and the users may have to wait while the models compile their output.
 
 2. After compilation, the users may examine the idividual outputs.
 
