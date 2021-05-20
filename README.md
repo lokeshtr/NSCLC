@@ -68,7 +68,7 @@ It is possible to generate three different types of output, each at one of the m
 
 > *Notice that current configuration performs enrichment only on clusters of more than 5 and less than 20 genes.*
   
-  3. Cluster Display. Finally, individual clusters can be drawn, and the resulting images saved for later study. 
+  3. Cluster Display. Finally, individual clusters can be illustrated, and the resulting images saved for subsequent analyses. 
 
 
 ## Bayesian simulation
