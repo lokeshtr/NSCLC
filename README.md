@@ -36,7 +36,7 @@ pip install mplot3d-dragger
 pip install Boruta==0.2
 pip install plotly==4.13.0
 ```
-## Use Boruta feature selection
+## Feature selection
 
 1. Unzip "train_data_whole_merged.zip" to the specified location and run through the commands in <b>Boruta Feature Selection.ipynb</b>
 
