@@ -3,7 +3,7 @@ The study employs an interconnected two-prong approach to investigate the biolog
     
   1. The first analytical pipeline involved a series of steps to examine the functional associations of the selected feature genes, both individually and in a network-context to extract coexpressed gene modules and protein complexes that were likely to shape the outcomes in NSCLC. Functional enrichment analysis was then used to simulate the perturbations and "normalization" of target pathways to pinpoint suitable targets for experimental validation and optential therapeutic intervention.
     
-  2. The second approach involved inoking a seriies of Machine Leanring approaches to generate prediction models capable of successfully discriminating NSCLC cohort from the healthy.
+  2. The second workflow involved invoking different machine Leanring approaches to generate prediction models capable of successfully discriminating NSCLC cohort from the healthy.
     
 The analytical workflow of the study is summarised in Figure 1.
 
