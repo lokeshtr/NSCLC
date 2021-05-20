@@ -1,18 +1,14 @@
 # Integrative analysis of the progression of non-small cell lung cancer (NSCLC)
-This repository includes the datasets, files and scripts associated with the research published in "An integrative machine learning and bayesian modeling approach highlights the crucial roles of Rho-GDI signaling pathway in the progression of non-small cell lung cancer (NSCLC)"
+The analytical workflow of the study is summarised in Figure 1. The study employs an interconnected two-prong approach to investigate the biology of NSCLC. The first approach involved identifying- by the means of feature selection- the key genes the activities of which collectively contribute to the onset of progression of NSCLC. This set of seleted features was then fed into two independent analytical workfows.
+    The first analytical pipeline involved a series of steps to examine the functional associations of the selected feature genes, both individually and in a network-context to extract coexpressed gene modules and protein complexes that were likely to shape the outcomes in NSCLC. Functional enrichment analysis was then used to simulate the perturbations and "normalization" of target pathways to pinpoint suitable targets for experimental validation and optential therapeutic intervention.
+    The second approach involved inoking a seriies of Machine Leanring approaches to generate prediction models capable of successfully discriminating NSCLC cohort from the healthy.
 
 # Publication
 Saransh Gupta, Haswanth Vundavilli, Rodolfo S. Allendes Osorio, Mari N. Itoh, Attayeb Mohsen, Aniruddha Datta,Kenji Mizuguchi, Lokesh P. Tripathi. An integrative machine learning and bayesian modeling approach highlights the crucial roles of Rho-GDI signaling pathway in the progression of non-small cell lung cancer (NSCLC). 
 
-## Analysis workflow:
-
-The analytical workflow is summarised in Figure 1. The study employs an interconnected two-prong approach to investigate the biology of NSCLC. The first approach involved identifying- by the means of feature selection- the key genes the activities of which collectively contribute to the onset of progression of NSCLC. This set of seleted features was then fed into two independent analytical workfows.
-1. The first analytical pipeline involved a series of steps to examine the functional associations of the selected feature genes, both individually and in a network-context to extract coexpressed gene modules and protein complexes that were likely to shape the outcomes in NSCLC. Functional enrichment analysis was then used to simulate the perturbations and "normalization" of target pathways to pinpoint suitable targets for experimental validation and optential therapeutic intervention.
-2. The second approach involved inoking a seriies of Machine Leanring approaches to generate prediction models capable of successfully discriminating NSCLC cohort from the healthy.
-
 ## Installation
 
-Readers are advised to use the package manager [pip](https://pip.pypa.io/en/stable/) to install the following dependencies.
+Users are advised to use the package manager [pip](https://pip.pypa.io/en/stable/) to install the following dependencies.
 
 ```bash
 pip install numpy==1.18.5
@@ -36,38 +32,30 @@ pip install mplot3d-dragger
 pip install Boruta==0.2
 pip install plotly==4.13.0
 ```
-# Please ensure that all the files are accessible on your local machine.
-
 ## Use Boruta feature selection
 
-1. Use <b>Boruta Feature Selection.ipynb</b>
+1. Unzip "train_data_whole_merged.zip" to the specified location and run through the commands in <b>Boruta Feature Selection.ipynb</b>
 
-2. Unzip "train_data_whole_merged.zip" to the local directory and save to the main working directory where the zip file was earlier saved. 
-
-3. Execute the code to commence processing.
-
-4. After the processing step, two output files will be generated:
+2. At he end of the process two output files will be generated:
    1. original_data_with_412_genes.csv
    2. test_after_features_selection.csv
   These two files form the inputs for the subsequent steps using <b>All Models.ipynb</b>
 
 ## Prediction models
 
-1. Open <b>All_Models oversampling KFOLD.ipynb and All Models testing-KFOLDOVERSAMPLING.ipynb </b> (make sure all dependencies mentioned above are installed, if not then install using the commands above)
+1. Open and run through the steps in <b>All_Models oversampling KFOLD.ipynb and All Models testing-KFOLDOVERSAMPLING.ipynb </b> 
 
+2. The process is time-consuming tso the users may have to wait while the models compile their output.
 
-2. Rull All cells and wait for some time while all other models are compiling the results.
-
-3. After compilation, please check the results of each and every model.
+3. After compilation, the users may examine the idividual outputs.
 
 ## Bayesian simulation
 
-1. Run "Bayesian network FOR Rho GDI signalling pathway.ipynb", input 0 if you want the simulation for the dataset containing only the healthy cohorts, else 1 for the NSCLC cohorts
+1. Run "Bayesian network FOR Rho GDI signalling pathway.ipynb", input 0 if the user wishes to simulate for the healthy cohort. else 1 for the NSCLC cohort.
 
-2. check the conditional probabilities obtained.
+2. The output files will list the conditional probabilities inferred for each cohort.
 
-## Directions to use <b> Dimensional reduction analysis.ipynb and Analyzing FC values for train and test.ipynb</b>
-
-1. Run the code, and get the results
-
-## For specific queries contact
+## For queries, comments and feedback contact
+Saransh Gupta
+Hashwanth Vundavilli
+Lokesh P. Tripathi
