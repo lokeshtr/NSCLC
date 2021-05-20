@@ -38,7 +38,7 @@ pip install plotly==4.13.0
 ```
 ## Feature selection
 
-The code required to perform Feature selection (using Boruta algorithm) is icluded in the <b>Boruta Feature Selection.ipynb</b> notebook. To perform feature selection, the users must extract the <b>train_data_whole_merged.zip</b> to the specified location.
+The code required to perform Feature selection (using Boruta algorithm) is included in the <b>Boruta Feature Selection.ipynb</b> notebook. To perform feature selection, the users must extract the <b>train_data_whole_merged.zip</b> archive to the specified location.
 
 The code generates two output files:
    1. original_data_with_412_genes.csv
@@ -77,6 +77,7 @@ The code required to perform the Bayesi simution analysis is included in the <b>
 The code takes gene expression values, expressed as a matrix as input and generates an output sumarising the conditional probabilities for either NSCLC or Healthy cohorts (determined by selecting 1 or 0, respectively as input parameters)
     
 ## For queries, comments and feedback contact
- Saransh Gupta
- Hashwanth Vundavilli
+ Saransh Gupta  
+ Hashwanth Vundavilli  
+ Rodolfo Allendes  
  Lokesh P. Tripathi
