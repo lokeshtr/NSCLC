@@ -51,9 +51,26 @@ pip install plotly==4.13.0
 
 2. The process is time-consuming tso the users may have to wait while the models compile their output.
 
-3. After compilation, the users may examine the idividual outputs.
+3. After compilation, the users may examine the individual outputs.
 
 ## PPI network analysis
+
+The code required to perform the PPI network analysis referenced in the article
+is included in the <b>network_analysis.ipynb</b> notebook.
+
+The code takes as input an undirected graph, expressed as a tab separated (tsv) file of interactions. Normally a file with four columns would be expected, including both Gene symbol and Gene ID for source and target nodes of each interaction.
+
+It is possible to generate three different types of output, each at one of the major steps in the process:
+
+  1. List of clustering results. These are the clusters obtained from using the Markov-Clustering algorithm on the largest  connected component of the input network. The list of clusters includes both the size of the cluster and its members, listed both as Gene Symbols and Gene IDs.
+
+> *Notice that the clustering is not performed on the whole network, but only on its largest connected component.*
+
+  2. List of enriched pathways. Through integration with the TargetMine data warehouse it is possible to perform pahtway enrichment on the resulting clusters, and the list of resulting enriched pathwas can be saved as a csv file.
+
+> *Notice that current configuration performs enrichment only on clusters of more than 5 and less than 20 genes.*
+  
+  3. Cluster Display. Finally, individual clusters can be drawn, and the resulting images saved for later study. 
 
 
 ## Bayesian simulation
