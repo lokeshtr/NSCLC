@@ -1,7 +1,7 @@
 # Integrative analysis of the progression of non-small cell lung cancer (NSCLC)
 The study employs an interconnected two-prong approach to investigate the biology of NSCLC. The first approach involved identifying- by the means of feature selection- the key genes whose activities collectively contributed to the onset of progression of NSCLC. This set of selected features was then sourced as inputs for two independent analytical workfows.
     
-  1. The first analytical worflow involved a series of steps to examine the functional associations of the selected feature genes, both individually and in a network-context to extract coexpressed gene modules and protein complexes that were likely to shape the outcomes in NSCLC. Functional enrichment analysis was then used to simulate the perturbations and "normalization" of target pathways to pinpoint suitable targets for experimental validation and optential therapeutic intervention.
+  1. The first analytical worflow involved a series of steps to examine the functional associations of the selected feature genes, both individually and in a network-context to extract coexpressed gene modules and protein complexes that were likely to shape the outcomes in NSCLC. Functional enrichment analysis was then used to guide the selection of cellular processes and to simulate perturbations and "normalization" in these processes to pinpoint suitable targets for experimental validation and potential therapeutic intervention.
     
   2. The second workflow involved invoking different machine learning approaches to generate prediction models capable of successfully discriminating NSCLC cohort from the healthy.
     
