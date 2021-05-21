@@ -43,7 +43,9 @@ The code required to perform Feature selection (using Boruta algorithm) is inclu
 It takes "train_data_whole_merged.csv" as input. This file contains gene expression dataset of 10077 genes and their classes (Normal / Healthy).
 
 We use sklearn library "Labelencoder" to encode Normal as 1 and Disease as 0.
+
 The we create two different dataframes:
+
     1. features dataframe:
         -   It contains all of the genes with their gene expression values
     2. target variable (y):
@@ -58,6 +60,7 @@ We found that 412/489 genes were present in the test dataset, hence we retained 
 if features do not match, we can not test our model on the test dataset.
 
 After these steps, we get our final outputs:
+
    1. original_data_with_412_genes.csv
    2. test_after_features_selection.csv
 
