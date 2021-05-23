@@ -106,7 +106,14 @@ It is possible to generate three different types of output, each at one of the m
 
 The code required to perform the Bayesian simulation analysis is included in the <b>Bayesian network FOR Rho GDI signalling pathway.ipynb</b> notebook.
 
+Here, we take the complete data as an input and select gene-expression values of only those genes which have a role in Rho-GDI signalling pathway.
 The code takes as input gene expression values, expressed as a matrix and generates an output sumarising the conditional probabilities for either NSCLC or Healthy cohorts (determined by selecting 1 or 0, respectively, as input parameters)
+
+For the sake of simplicity, we first discretize the continuous gene-expression values into binary values.
+Then we make a graph using <b>networkx</b> and then solve the graph using The Bayesian Simulation.
+
+Once the above graph is solved, we get the upregulated and downregulated genes in the Rho-GDI Signalling pathway.
+
     
 ## For queries, comments and feedback contact
  Saransh Gupta  
