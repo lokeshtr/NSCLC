@@ -71,6 +71,17 @@ These two files form the inputs for the subsequent steps using <b>All Models.ipy
 
 The code required to perform machine learning are included in <b>All_Models oversampling KFOLD.ipynb and All Models testing-KFOLDOVERSAMPLING.ipynb </b> notebooks. 
 
+Here we take original_data_with_412_genes.csv an input which was the final output of feature-selection pipeline.
+Using the gene-expression values as features and healthy/disease as target variable, we generate a machine learning model here.
+
+While analyzing the data, we observed a high class-imbalance between the two classes, hence to balance the classes, we used an oversampling technique "SMOTE".
+
+Once we get the final data after oversampling, we feed them to different Machine Learning classifiers, train them on the training data and test the results on validation and test dataset.
+
+In the notebook, we demonstrate the results of our different ML classifiers on the training, validation and test dataset using pre-trained models.
+
+The results of Machine Learning models on the test dataset confirms that the 412 genes that we have selected have significant role in stratifying Cancer and Normal Cohorts.
+
 ## PPI network analysis
 
 The code required to perform the PPI network analysis referenced in the article
