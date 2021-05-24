@@ -40,9 +40,9 @@ pip install plotly==4.13.0
 
 The code required to perform Feature selection (using Boruta algorithm) is included in the <b>Boruta Feature Selection.ipynb</b> notebook. To perform feature selection, the users must extract the <b>train_data_whole_merged.zip</b> archive to the specified location.
 
-The code takes the gene expression profiles of 10077 genes and their classes (Normal/NSCLC) contained in a comma separated (csv) file "train_data_whole_merged.csv" as input.
+The code takes as input the gene expression profiles of 10077 genes and their classes (Normal/NSCLC) compiled in a comma separated (csv) file "train_data_whole_merged.csv".
 
-We used the sklearn library "Labelencoder" to encode Normal as 1 and NSCLC (Disease) as 0.
+Sklearn library "Labelencoder" was used to encode Normal as 1 and NSCLC (Disease) as 0.
 
 The we created two different dataframes:
 
@@ -66,16 +66,10 @@ These two files form the inputs for the subsequent steps using <b>All Models.ipy
 
 The code required to perform machine learning are included in <b>All_Models oversampling KFOLD.ipynb and All Models testing-KFOLDOVERSAMPLING.ipynb </b> notebooks. 
 
-Here we take original_data_with_412_genes.csv an input which was the final output of feature-selection pipeline.
-Using the gene-expression values as features and healthy/disease as target variable, we generate a machine learning model here.
+The code takes original_data_with_412_genes.csv as input to build  machine learning models.
 
-While analyzing the data, we observed a high class-imbalance between the two classes, hence to balance the classes, we used an oversampling technique "SMOTE".
-
-Once we get the final data after oversampling, we feed them to different Machine Learning classifiers, train them on the training data and test the results on validation and test dataset.
-
-In the notebook, we demonstrate the results of our different ML classifiers on the training, validation and test dataset using pre-trained models.
-
-The results of Machine Learning models on the test dataset confirms that the 412 genes that we have selected have significant role in stratifying Cancer and Normal Cohorts.
+To address the issue of high class-imbalance, we used an oversampling technique "SMOTE" to oversample the minority (Normal/Healthy) class. The oversampled dataset was 
+generate prediction models using different machine learning classifiers. This pross included training the models on a training data and test the results on validation and test dataset. Model performances were evaluated by testing their prediction performances on the validation set. We estimated the accuracies and the area under the AUC-ROC score using the scikit-learn package.
 
 ## PPI network analysis
 
