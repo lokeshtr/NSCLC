@@ -40,30 +40,25 @@ pip install plotly==4.13.0
 
 The code required to perform Feature selection (using Boruta algorithm) is included in the <b>Boruta Feature Selection.ipynb</b> notebook. To perform feature selection, the users must extract the <b>train_data_whole_merged.zip</b> archive to the specified location.
 
-It takes "train_data_whole_merged.csv" as input. This file contains gene expression dataset of 10077 genes and their classes (Normal / Healthy).
+The code takes the gene expression profiles of 10077 genes and their classes (Normal/NSCLC) contained in a comma separated (csv) file "train_data_whole_merged.csv" as input.
 
-We use sklearn library "Labelencoder" to encode Normal as 1 and Disease as 0.
+We used the sklearn library "Labelencoder" to encode Normal as 1 and NSCLC (Disease) as 0.
 
-The we create two different dataframes:
+The we created two different dataframes:
 
     1. features dataframe:
         -   It contains all of the genes with their gene expression values
     2. target variable (y):
         -   It contains the classes Normal (1) and Disease (0)
 
-Once we have these dataframes, we then use them as input for Boruta Feature Selection which uses Random Forest Classifiers as a method to train.
+We then use these dataframes as input for Boruta Feature Selection which uses Random Forest Classifiers to estimate the variable importance feature.
 
-Once Boruta Feature Selection gets compiled, we get 489 Genes as output which are more contributing for stratifying between NSCLC and Normal.
-After we get the dataset with 489 features (genes), we then check how many of those 489 features are actually present in out test dataset.
+The features obtained using Boruta Feature Selection were examined for overlaps with an independent test set, which was a dataset of gene expression profiles of NSCLC samples from an independent experiment. 412 of 489 genes overlapped across the two datasets and hence were retained for machine learning.
 
-We found that 412/489 genes were present in the test dataset, hence we retained the data-set containing only 412 genes, because further we want to train a machine learning model
-if features do not match, we can not test our model on the test dataset.
-
-After these steps, we get our final outputs:
+After these steps, the followin output files were obtained:
 
    1. original_data_with_412_genes.csv
    2. test_after_features_selection.csv
-
 
 These two files form the inputs for the subsequent steps using <b>All Models.ipynb</b>
 
