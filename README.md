@@ -44,16 +44,18 @@ The code takes as input the gene expression profiles of 10077 genes and their cl
 
 Sklearn library "Labelencoder" was used to encode Normal as 1 and NSCLC (Disease) as 0.
 
-The we created two different dataframes:
+This process involves a series of steps.
+
+1. Step 1 involved building of two different dataframes:
 
     1. features dataframe:
         -   It contains all of the genes with their gene expression values
     2. target variable (y):
         -   It contains the classes Normal (1) and Disease (0)
 
-We then use these dataframes as input for Boruta Feature Selection which uses Random Forest Classifiers to estimate the variable importance feature.
+2. The two dataframes form the inputs for Boruta Feature Selection, which uses Random Forest Classifiers to estimate the variable importance feature.
 
-The features obtained using Boruta Feature Selection were examined for overlaps with an independent test set, which was a dataset of gene expression profiles of NSCLC samples from an independent experiment. 412 of 489 genes overlapped across the two datasets and hence were retained for machine learning.
+3. The features obtained using Boruta Feature Selection were examined for overlaps with an independent test set, which was a dataset of gene expression profiles of NSCLC samples from an independent experiment. 412 of 489 genes overlapped across the two datasets and hence were retained for machine learning.
 
 After these steps, the followin output files were obtained:
 
