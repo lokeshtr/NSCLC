@@ -106,8 +106,8 @@ The code takes as input gene expression values (of all genes in the Rho-GDI sign
 3. Finally, conditional probabilities i.e. an output gene was over-expressed given an upstream gene was under-expressed simultaneously, of all genes within the network are inferred and used to pinpoint potential targets for therapeutic gene intervention.
     
 ## For queries, comments and feedback contact
- Saransh Gupta (saransh.official.iitkgp@gmail.com)  
- Hashwanth Vundavilli (hashwanthvv@gmail.com)  
- Rodolfo Allendes (rallendes@nibiohn.go.jp)  
- Kenji Mizuguchi (kenji@nibiohn.go.jp)  
- Lokesh P. Tripathi (lokesh@nibiohn.gojp. lokes.tripathi@riken.jp)  
+ Saransh Gupta (saransh.official.iitkgp[at]gmail.com)  
+ Hashwanth Vundavilli (hashwanthvv[at]gmail.com)  
+ Rodolfo Allendes (rallendes[at]nibiohn.go.jp)  
+ Kenji Mizuguchi (kenji[at]nibiohn.go.jp)  
+ Lokesh P. Tripathi (lokesh[at]nibiohn.go.jp. lokesh.tripathi[at]riken.jp)  
