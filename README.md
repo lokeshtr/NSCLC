@@ -97,11 +97,11 @@ The code required to perform the Bayesian simulation analysis is included in the
 
 The code takes as input gene expression values (of all genes in the Rho-GDI signalling pathway; see text), expressed as a matrix and generates an output sumarising the conditional probabilities for either NSCLC or Healthy cohorts (determined by selecting 1 or 0, respectively, as input parameters)
 
-1. The gene-expression values were first discretized into into binary values.
+1. In the first step, the gene-expression values were discretized, using mean a a threshold, into into binary values. Values greater than the threshold were all normalized as '1' and values lesser than the threshold were all normalized as '0'.
 
-2. Next we build the graph using <b>networkx</b> and solved the graph using Bayesian Simulation.
+2. Next step involved build the bayesian network equivalent of the RhoGDI sigaling pathway using <b>networkx</b> for the Bayesian network analysis.
 
-3. Once the above graph is solved, we get the upregulated and downregulated genes in the Rho-GDI Signalling pathway.
+3. Finally, conditional probabilities i.e. an output gene was over-expressed given an upstream gene was under-expressed simultaneously, of all genes within the network are inferred and used to pinpoint potential targets for therapeutic gene intervention.
     
 ## For queries, comments and feedback contact
  Saransh Gupta  
