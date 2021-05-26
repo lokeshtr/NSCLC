@@ -101,9 +101,9 @@ The code takes as input gene expression values (of all genes in the Rho-GDI sign
 
 1. In the first step, the gene-expression values were discretized, using mean a a threshold, into into binary values. Values greater than the threshold were all normalized as '1' and values lesser than the threshold were all normalized as '0'.
 
-2. Next step involved build the bayesian network equivalent of the RhoGDI sigaling pathway using <b>networkx</b> for the Bayesian network analysis.
+2. Next step involved building a bayesian network equivalent of the RhoGDI sigaling pathway using <b>networkx</b> for the Bayesian network analysis.
 
-3. Finally, conditional probabilities i.e. an output gene was over-expressed given an upstream gene was under-expressed simultaneously, of all genes within the network are inferred and used to pinpoint potential targets for therapeutic gene intervention.
+3. Finally, conditional probabilities i.e. the probability that an output gene was over-expressed given an upstream gene was under-expressed simultaneously, for all genes within the network were inferred and were used to pinpoint potential targets for therapeutic gene intervention.
     
 ## For queries, comments and feedback contact
  Saransh Gupta (saransh.official.iitkgp[at]gmail.com)  
