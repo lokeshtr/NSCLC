@@ -5,7 +5,7 @@ The study employs an interconnected two-prong approach to investigate the biolog
     
   2. The second workflow involved invoking different machine learning approaches to generate prediction models capable of successfully discriminating NSCLC cohort from the healthy.
     
-This repository contains the scrits and datasets for the analysis done in this study.
+This repository contains the scripts and datasets for the analysis done in this study.
 
 # Publication
 Saransh Gupta, Haswanth Vundavilli, Rodolfo S. Allendes Osorio, Mari N. Itoh, Attayeb Mohsen, Aniruddha Datta,Kenji Mizuguchi, Lokesh P. Tripathi. An integrative machine learning and bayesian modeling approach highlights the crucial roles of Rho-GDI signaling pathway in the progression of non-small cell lung cancer (NSCLC). 
