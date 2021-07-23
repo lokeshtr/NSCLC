@@ -31,7 +31,6 @@ pip install lightgbm==2.3.1
 pip install imbalanced-learn==0.6.2
 pip install seaborn==0.11.0
 pip install matplotlib==3.3.3
-pip install time
 pip install mplot3d-dragger
 pip install Boruta==0.2
 pip install plotly==4.13.0
