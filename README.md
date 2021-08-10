@@ -37,9 +37,9 @@ pip install plotly==4.13.0
 ```
 ## Feature selection
 
-The code required to perform Feature selection (using Boruta algorithm) is included in the <b>Boruta Feature Selection.ipynb</b> notebook. To perform feature selection, the users must extract the <b>train_data_whole_merged.zip</b> archive to the specified location.
+The code required to perform Feature selection (using Boruta algorithm) is included in the <b>Boruta Feature Selection.ipynb</b> notebook.
 
-The code takes as input the gene expression profiles of 10077 genes and their classes (Normal/NSCLC) compiled in a comma separated (csv) file "train_data_whole_merged.csv".
+The code takes as input the gene expression profiles of 10077 genes and their classes (Normal/NSCLC).
 
 Sklearn library "Labelencoder" was used to encode Normal as 1 and NSCLC (Disease) as 0.
 
@@ -56,21 +56,21 @@ This process involves a series of steps.
 
 3. The features obtained using Boruta Feature Selection were examined for overlaps with an independent test set, which was a dataset of gene expression profiles of NSCLC samples from an independent experiment. 412 of 489 genes overlapped across the two datasets and hence were retained for machine learning.
 
-After these steps, the followin output files were obtained:
+After these steps, the following output files were obtained:
 
-   1. original_data_with_412_genes.csv
-   2. test_after_features_selection.csv
+   1. training_data_after_feature_selection.csv
+   2. test_data_after_feature_selection.csv
 
 These two files form the inputs for the subsequent steps using <b>All Models.ipynb</b>
 
 ## Machine learning
 
-The code required to perform machine learning are included in <b>All_Models oversampling KFOLD.ipynb and All Models testing-KFOLDOVERSAMPLING.ipynb </b> notebooks. 
+The code required to perform machine learning are included in <b>ML Analysis/ML_Classifiers.ipynb </b>. 
 
-The code takes original_data_with_412_genes.csv as input to build  machine learning models.
+The code takes training_data_after_feature_selection.csv as input to build  machine learning models.
 
 To address the issue of high class-imbalance, we used an oversampling technique "SMOTE" to oversample the minority (Normal/Healthy) class. The oversampled dataset was 
-generate prediction models using different machine learning classifiers. This pross included training the models on a training data and test the results on validation and test dataset. Model performances were evaluated by testing their prediction performances on the validation set. We estimated the accuracies and the area under the AUC-ROC score using the scikit-learn package.
+generate prediction models using different machine learning classifiers. This process included training the models on a training data and test the results on validation and test dataset. Model performances were evaluated by testing their prediction performances on the validation set. We estimated the accuracies and the area under the AUC-ROC score using the scikit-learn package.
 
 ## PPI network analysis
 
