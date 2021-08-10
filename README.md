@@ -75,7 +75,7 @@ generate prediction models using different machine learning classifiers. This pr
 ## PPI network analysis
 
 The code required to perform the PPI network analysis referenced in the article
-is included in the <b>network_analysis.ipynb</b> notebook.
+is included in the <b>MCL_analysis.ipynb</b> notebook.
 
 The code takes as input an undirected graph, expressed as a tab separated (tsv) file of interactions. Normally a file with four columns would be expected, including both Gene symbol and Gene ID for source and target nodes of each interaction.
 
