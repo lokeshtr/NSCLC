@@ -52,16 +52,14 @@ This process involves a series of steps.
     2. target variable (y):
         -   It contains the classes Normal (1) and Disease (0)
 
-2. The two dataframes form the inputs for Boruta Feature Selection, which uses Random Forest Classifiers to estimate the variable importance feature.
+2. The above two dataframes form as the inputs for Boruta Feature Selection, which uses Random Forest Classifiers to estimate the variable importance feature.
 
-3. The features obtained using Boruta Feature Selection were examined for overlaps with an independent test set, which was a dataset of gene expression profiles of NSCLC samples from an independent experiment. 412 of 489 genes overlapped across the two datasets and hence were retained for machine learning.
+3. The features obtained using Boruta Feature Selection were examined for overlaps with an independent test set, which was a dataset of gene expression profiles of NSCLC samples from an independent experiment. 412 out of 489 genes overlapped across the two datasets and hence were retained for machine learning.
 
 After these steps, the following output files were obtained:
 
    1. training_data_after_feature_selection.csv
    2. test_data_after_feature_selection.csv
-
-These two files form the inputs for the subsequent steps using <b>All Models.ipynb</b>
 
 ## Machine learning
 
